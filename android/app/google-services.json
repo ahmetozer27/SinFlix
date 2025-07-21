@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222846896133",
+    "project_id": "datingapp-7d6d4",
+    "storage_bucket": "datingapp-7d6d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222846896133:android:a6d556c0563f96b696b46c",
+        "android_client_info": {
+          "package_name": "com.codemobi.dating_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPH1QC_Tb5cAe_z8RTZntTxRuWK2t2UXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
