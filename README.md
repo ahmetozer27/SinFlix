@@ -58,27 +58,29 @@ Bu proje, kullanıcıların filmleri keşfedebileceği, detaylarını inceleyebi
 
 ## 📁 Proje Yapısı
 
+```plaintext
 lib/
 ├── core/
-│ ├── config/
-│ └── constants/
-│ └── extensions/
-│ └── state_management/ => Bu kısım normalde ayarlarda olmalı dil ve theme statei 
+│   ├── config/
+│   ├── constants/
+│   ├── extensions/
+│   └── state_management/ => Bu kısım normalde ayarlarda olmalı dil ve theme statei 
 ├── data/
-│ ├── models/ => Veri modelleri
-│ └── repository/ => Servis ve state yönetimi
-│ └── service/ => Api ve cache bağlantıları
+│   ├── models/ => Veri modelleri
+│   ├── repository/ => Servis ve state yönetimi
+│   └── service/ => Api ve cache bağlantıları
 ├── presentation/
-│ ├── components/ => Genel componentler (widgets animations vs.)
-│ └── pages/ => Modüller halinde sayfalar
+│   ├── components/ => Genel componentler (widgets animations vs.)
+│   └── pages/ => Modüller halinde sayfalar
 ├── resources/
-│ ├── assets/ => Resimler,fontlar
-│ └── translations/ => Dil çevirileri
+│   ├── assets/ => Resimler,fontlar
+│   └── translations/ => Dil çevirileri
 ├── utils/ => Projede birçok yerde kullanılan fonksiyonlar
 ├── app.dart => MaterialApp yapılanması
 ├── main.dart => Main dosyası
 ├── firebase_options.dart => Firebase config
 .env => Api Base Url gibi değişkenlerin bulunduğu kısım (github pushunda eklemesin diye)
+```
 
 ---
 
