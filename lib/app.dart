@@ -14,7 +14,7 @@ class App extends StatelessWidget {
         builder: (context, themeMode) {
           return MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            title: 'Flutter & Dart Compiler',
+            title: 'Sin Flix',
             theme: ThemeConfig.lightTheme,
             darkTheme: ThemeConfig.darkTheme,
             themeMode: themeMode,
